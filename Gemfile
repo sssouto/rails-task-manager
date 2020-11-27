@@ -52,3 +52,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Gemfile
 gem 'simple_form'
+
+# Fontawesome
+gem 'font-awesome-rails'

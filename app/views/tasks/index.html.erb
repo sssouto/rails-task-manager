@@ -8,7 +8,7 @@
       <% else %>
         <%= '🟩' %>
       <% end %>
-      <%= link_to task.title, task_path(task)%> <%= link_to "🗑",
+      <%= link_to task.title, task_path(task)%> <%= link_to '<i class="fa fa-trash"></i>'.html_safe,
               task_path(task),
               method: :delete,
               data: { confirm: "Delete #{task.title}?" } %>
